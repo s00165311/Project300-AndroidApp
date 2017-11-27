@@ -2,11 +2,13 @@
 using Android.Widget;
 using Android.OS;
 
-namespace App1
+namespace project300
 {
-    [Activity(Label = "App1", MainLauncher = true)]
+    [Activity(Label = "project300", MainLauncher = true)]
     public class MainActivity : Activity
     {
+        //private Button gBtnSignUp;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
