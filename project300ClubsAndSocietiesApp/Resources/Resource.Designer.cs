@@ -48,7 +48,10 @@ namespace project300ClubsAndSocietiesApp
 			public const int buttonStyle = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int progressBarStyle = 2130837505;
+			public const int editTextStyle = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int progressBarStyle = 2130837506;
 			
 			static Drawable()
 			{
