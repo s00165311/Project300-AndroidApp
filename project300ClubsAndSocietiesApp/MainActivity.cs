@@ -9,6 +9,7 @@ namespace project300ClubsAndSocietiesApp
     public class MainActivity : Activity
     {
         private Button gBtnSignUp;
+        private Button gBtnSignIn;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -25,6 +26,16 @@ namespace project300ClubsAndSocietiesApp
                 FragmentTransaction transaction = FragmentManager.BeginTransaction();
                 dialog_signUp signUpDialog = new dialog_signUp();
                 signUpDialog.Show(transaction,"dialog fragment");
+            };
+
+            gBtnSignIn = FindViewById<Button>(Resource.Id.btnSignIn);
+
+            gBtnSignIn.Click += (object sender, EventArgs args) =>
+            {
+                //Pull up dialog
+                FragmentTransaction transaction = FragmentManager.BeginTransaction();
+                dialog_signIn signInDialog = new dialog_signIn();
+                signInDialog.Show(transaction, "dialog fragment");
             };
         }
     }

@@ -48,10 +48,13 @@ namespace project300ClubsAndSocietiesApp
 			public const int buttonStyle = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int editTextStyle = 2130837505;
+			public const int checkboxStyle = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int progressBarStyle = 2130837506;
+			public const int editTextStyle = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int progressBarStyle = 2130837507;
 			
 			static Drawable()
 			{
@@ -66,29 +69,44 @@ namespace project300ClubsAndSocietiesApp
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050008
+			public const int btnDialogEmail = 2131034120;
+			
 			// aapt resource value: 0x7f050003
-			public const int btnDialogEmail = 2131034115;
+			public const int btnLogin = 2131034115;
 			
-			// aapt resource value: 0x7f050005
-			public const int btnSignIn = 2131034117;
+			// aapt resource value: 0x7f05000a
+			public const int btnSignIn = 2131034122;
 			
-			// aapt resource value: 0x7f050006
-			public const int btnSignUp = 2131034118;
-			
-			// aapt resource value: 0x7f050007
-			public const int progressBar = 2131034119;
+			// aapt resource value: 0x7f05000b
+			public const int btnSignUp = 2131034123;
 			
 			// aapt resource value: 0x7f050004
-			public const int textViewLogin = 2131034116;
-			
-			// aapt resource value: 0x7f050001
-			public const int txtEmail = 2131034113;
+			public const int checkBox1 = 2131034116;
 			
 			// aapt resource value: 0x7f050000
-			public const int txtName = 2131034112;
+			public const int loginView = 2131034112;
+			
+			// aapt resource value: 0x7f05000c
+			public const int progressBar = 2131034124;
+			
+			// aapt resource value: 0x7f050009
+			public const int textViewLogin = 2131034121;
+			
+			// aapt resource value: 0x7f050001
+			public const int txtEmailLogin = 2131034113;
+			
+			// aapt resource value: 0x7f050006
+			public const int txtEmailReg = 2131034118;
+			
+			// aapt resource value: 0x7f050005
+			public const int txtNameReg = 2131034117;
+			
+			// aapt resource value: 0x7f050007
+			public const int txtPassword = 2131034119;
 			
 			// aapt resource value: 0x7f050002
-			public const int txtPassword = 2131034114;
+			public const int txtPasswordLogin = 2131034114;
 			
 			static Id()
 			{
@@ -104,10 +122,16 @@ namespace project300ClubsAndSocietiesApp
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int dialog_signUpFragment = 2130903040;
+			public const int dialog_signIn = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int dialog_signUpFragment = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int homePage = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Main = 2130903043;
 			
 			static Layout()
 			{
